@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+     background: url("https://wallpaperaccess.com/full/2138691.jpg");
+     background-repeat: no-repeat; 
+     background-size: cover;
+     letter-spacing: 0.2rem;
+     font-size: 1rem;
+}
+
+.container{
+    max-width: 400px;
+}
+
+.search-box-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.search-box-icon img{
+    cursor: pointer;
+    border: 1px solid rgb(215, 213, 213);
+    border-radius: 4px;
+    background: #fff;
+    height: 57px;
+    padding: 2%;
+    width: 56px;
+    margin: 4px;
+}
+
+.search-box-icon img :hover{
+    background: #b6d1ff;
+}
+
+
+
+.weatherIcon{
+    border-radius: 50%;
+    border: 3px solid black;
+    width: 80%;
+    position: relative;
+    top: -50px;
+    margin-bottom: -50px;
+    background: #fff;
+}
+
+.time{
+    width: 100%;
+    height: 300px;
+}
+
+
+.page-foot{
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    overflow: visible;
+
+
+    background: #fff;
+    text-align: center;
+    padding: 0.5%;
+}
+
+.page-foot p{
+    margin-top: 10px;
+    padding: 0% 5%;
+    
+}
+
+.card{
+    margin-bottom: 30%;
+}
